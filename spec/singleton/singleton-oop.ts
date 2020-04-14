@@ -21,7 +21,7 @@ export class Singleton {
 
 
 
-class SingletonFactory {
+export class SingletonFactory {
   static produce(){
     // anonymous class
     return class {
